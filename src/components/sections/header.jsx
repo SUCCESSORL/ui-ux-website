@@ -6,11 +6,11 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { label: "Product", href: "/product" },
-  { label: "Security", href: "/security" },
-  { label: "Company", href: "/company" },
-  { label: "News", href: "/news" },
-  { label: "Careers", href: "/careers" },
+  { label: "Advisory", href: "/advisory" },
+  { label: "Weather", href: "/weather" },
+  { label: "Soil", href: "/soil" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "About", href: "/about" },
 ];
 
 export default function Header() {
@@ -46,7 +46,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-[68px]">
           <Link href="/">
             <span className="text-3xl font-bold text-white font-display cursor-pointer">
-              rogo
+              FarmAI
             </span>
           </Link>
 
@@ -64,7 +64,7 @@ export default function Header() {
 
           <div className="hidden md:flex items-center gap-6">
             <a
-              href="https://tryrogo.com"
+              href="#"
               className="text-base font-medium text-white hover:opacity-75 transition-opacity"
             >
               Log in
@@ -73,7 +73,7 @@ export default function Header() {
               href="#"
               className="inline-flex items-center justify-center whitespace-nowrap bg-primary text-primary-foreground rounded-full py-3 px-6 h-auto text-base font-medium hover:bg-gray-200 transition-colors"
             >
-              Request Demo
+              Start Free Trial
             </a>
           </div>
 
@@ -107,7 +107,7 @@ export default function Header() {
               </Link>
             ))}
              <a
-              href="https://tryrogo.com"
+              href="#"
               className="text-xl font-medium text-white hover:opacity-75 transition-opacity"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -118,7 +118,7 @@ export default function Header() {
               className="inline-flex items-center justify-center whitespace-nowrap bg-primary text-primary-foreground rounded-full py-3 px-6 h-auto text-xl font-medium hover:bg-gray-200 transition-colors mt-4"
                onClick={() => setIsMenuOpen(false)}
             >
-              Request Demo
+              Start Free Trial
             </a>
           </nav>
         </div>

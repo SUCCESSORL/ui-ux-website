@@ -34,26 +34,26 @@ const HeroSection = () => {
       </div>
       <div className="absolute bottom-10 left-0 right-0 z-10 flex flex-col items-center gap-5 px-5">
         <p className="font-body text-sm font-medium text-white/50 tracking-wide">
-          Trusted by leading financial institutions
+          Trusted by leading agri-businesses and cooperatives
         </p>
         <div className="flex flex-wrap items-center justify-center gap-x-8 sm:gap-x-12 md:gap-x-[60px] gap-y-4">
           <div className="h-4 w-[90px] md:w-[110px] text-white/80 flex items-center justify-center font-display text-[18px] md:text-[22px] tracking-[0.2em]">
-            LAZARD
+            GREENFIELDS
           </div>
           <div className="h-[18px] md:h-[21px] w-[110px] md:w-[137px] text-white/80 flex items-center justify-center font-body text-xs md:text-sm font-bold tracking-widest">
-            TIGERGLOBAL
+            FARMER CO‑OP
           </div>
           <div className="h-[13px] md:h-[15px] w-[70px] md:w-[81px] text-white/80 flex items-center justify-center font-display text-[20px] md:text-[24px]">
-            Moelis
+            AgriNova
           </div>
           <div className="h-[22px] md:h-[27px] w-[60px] md:w-[77px] text-white/80 flex items-center justify-center font-body text-base md:text-xl font-bold">
-            GTCR
+            HARVEST
           </div>
           <div className="h-[14px] md:h-[16px] w-[90px] md:w-[105px] text-white/80 flex items-center justify-center font-body text-base md:text-lg font-bold">
-            NOMURA
+            RURAL FARM
           </div>
           <div className="h-[18px] md:h-[22px] w-[130px] md:w-[158px] text-white/80 flex items-center justify-center font-display text-base md:text-[18px]">
-            RAYMOND JAMES
+            GRAIN UNION
           </div>
         </div>
       </div>

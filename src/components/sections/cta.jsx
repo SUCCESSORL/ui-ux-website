@@ -9,9 +9,9 @@ const CtaSection = () => {
           <div className="relative text-center md:text-left">
             <div className="absolute -left-4 -top-4 hidden h-8 w-8 border-l-2 border-t-2 border-[#1a1a1a] md:block" />
             <h2 className="font-display text-[48px] font-bold leading-[1.2] text-[#1a1a1a]">
-              Unlock Financial AI
+              Unlock Farm AI
               <br />
-              For Your Firm
+              For Your Operation
             </h2>
           </div>
           <div className="shrink-0">
@@ -19,7 +19,7 @@ const CtaSection = () => {
               href="#"
               className="inline-block rounded-full bg-[#1a1a1a] px-8 py-4 text-base font-medium text-white transition-colors hover:bg-neutral-800"
             >
-              Request Demo
+              Start Free Trial
             </Link>
           </div>
         </div>

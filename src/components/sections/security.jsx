@@ -42,24 +42,24 @@ const SecuritySection = () => {
             <div>
               <p className="font-sans text-[15px] font-semibold uppercase tracking-wider text-white/50">Security</p>
               <h3 className="mt-4 font-display text-[48px] leading-[1.2] text-white">
-                Built for Enterprise
+                Built for Farm Operations
                 <br />
                 Secure by Design
               </h3>
             </div>
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-1">
               <div className="flex flex-col gap-2">
-                <h4 className="font-sans text-base font-medium text-white">Modern &amp; secure data practices</h4>
+                <h4 className="font-sans text-base font-medium text-white">Modern data protection for field and cloud</h4>
               </div>
               <div className="flex flex-col gap-2">
-                <h4 className="font-sans text-base font-medium text-white">End to end encryption</h4>
+                <h4 className="font-sans text-base font-medium text-white">End‑to‑end encryption of farm records</h4>
               </div>
               <div className="flex flex-col gap-2">
-                <h4 className="font-sans text-base font-medium text-white">Audited &amp; tested</h4>
+                <h4 className="font-sans text-base font-medium text-white">Audited, tested, and compliant</h4>
               </div>
             </div>
             <a className="group inline-flex items-center gap-2 text-base font-medium text-white" href="/security">
-              Find out more
+              Learn how we secure your data
               <ArrowRight className="h-[18px] w-[18px] transition-transform duration-300 group-hover:translate-x-1" />
             </a>
           </div>

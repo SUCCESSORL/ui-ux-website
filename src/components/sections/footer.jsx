@@ -4,9 +4,9 @@ const footerLinks = [
   {
     title: "OVERVIEW",
     links: [
-      { name: "Product", href: "#" },
-      { name: "Features", href: "#" },
-      { name: "Security", href: "#" },
+      { name: "Advisory", href: "#" },
+      { name: "Weather", href: "#" },
+      { name: "Soil", href: "#" },
     ],
   },
   {
@@ -26,7 +26,7 @@ const footerLinks = [
   {
     title: "CONTACT",
     links: [
-      { name: "Request Demo", href: "#" },
+      { name: "Start Free Trial", href: "#" },
       { name: "Email", href: "#" },
       { name: "LinkedIn", href: "#" },
       { name: "X / Twitter", href: "#" },
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
         <hr className="mt-16 mb-8 border-border" />
         <p className="text-center text-caption text-muted-foreground">
-          © 2025 Rogo AI
+          © 2025 FarmAI
         </p>
       </div>
     </footer>

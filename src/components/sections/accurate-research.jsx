@@ -8,19 +8,17 @@ const AccurateResearch = () => {
           <div className="relative w-full lg:w-1/2 aspect-[1580/1074]">
             <Image
               src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/664c0369-6b1c-41e6-b482-de971c773c68-rogo-ai-clone-vercel-app/assets/images/next-333674-SgW8fw8R3fjCVXFB8CId5hi9F4-2.jpeg?"
-              alt="Lush green landscape with a winding river, representing diverse data sources for research."
+              alt="Lush farmland with river, reflecting diverse on-farm data sources"
               fill
               className="rounded-xl object-cover"
             />
           </div>
           <div className="w-full lg:w-1/2 flex flex-col gap-4 lg:max-w-lg">
             <h3 className="font-display text-[36px] text-[#1a1a1a] leading-tight">
-              Accurate, Grounded Research Across All Your Data
+              Accurate, Grounded Agronomy Across All Your Data
             </h3>
             <p className="text-lg text-[#666666] leading-[1.6]">
-              Rather than provide off-the-shelf tools, we collaborate closely
-              with you to build custom models and give you a lasting competitive
-              advantage.
+              We combine sensor readings, satellite imagery, weather, soil tests, and field notes to deliver trusted agronomy insights tailored to your operation.
             </p>
           </div>
         </div>

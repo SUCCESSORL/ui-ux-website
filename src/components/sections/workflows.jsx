@@ -3,28 +3,28 @@ import { Phone, FileText, CalendarDays, User, DollarSign, Newspaper, Briefcase, 
 import React from "react";
 
 const column1Items = [
-  { icon: Phone, text: "Earnings Comp Analysis" },
+  { icon: Phone, text: "Field Scouting Report" },
   {
     icon: FileText,
     text: (
       <>
-        Public Company
+        Crop Rotation
         <br />
-        Strip Profile
+        Plan
       </>
     ),
   },
-  { icon: CalendarDays, text: "Meeting Prep" },
-  { icon: FileText, text: "Private Company Profile" },
-  { icon: User, text: "Personal Bio" },
+  { icon: CalendarDays, text: "Irrigation Schedule" },
+  { icon: FileText, text: "Soil Test Summary" },
+  { icon: User, text: "Grower Profile" },
 ];
 
 const column2Items = [
-  { icon: DollarSign, text: "Financial Sponsor Overview" },
-  { icon: FileText, text: "Public Company Profile" },
-  { icon: Newspaper, text: "News Run" },
-  { icon: Briefcase, text: "Secondaries Buyer Overview" },
-  { icon: FileCheck2, text: "Proofread My Deck" },
+  { icon: DollarSign, text: "Input Cost Breakdown" },
+  { icon: FileText, text: "Pest & Disease Advisory" },
+  { icon: Newspaper, text: "Market Price Update" },
+  { icon: Briefcase, text: "Co‑op Delivery Overview" },
+  { icon: FileCheck2, text: "Proofread My Farm Plan" },
 ];
 
 const WorkflowsSection = () => {
@@ -36,17 +36,17 @@ const WorkflowsSection = () => {
             <h2 className="font-display text-[48px] leading-tight text-foreground mb-6 font-bold">
               Leverage Your
               <br />
-              Firm’s Workflows
+              Farm's Workflows
             </h2>
             <p className="text-body-large text-muted-foreground max-w-md mx-auto lg:mx-0">
-              Use agents designed to create work outputs exactly as you would across PowerPoint, Excel and Word.
+              Use agents designed to generate field reports, schedules, and plans exactly as you would across your tools.
             </p>
           </div>
           <div className="lg:flex-1 w-full [perspective:1200px]">
             <div className="relative aspect-[1.47] [transform-style:preserve-3d] [transform:rotateX(10deg)_rotateY(-10deg)] will-change-transform">
               <Image
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/664c0369-6b1c-41e6-b482-de971c773c68-rogo-ai-clone-vercel-app/assets/images/next-543261-7RikvNOaGWGdC81zREctYsGVYF0-3.jpeg?"
-                alt="Architectural building with workflow UI overlay"
+                alt="Farm management workflow UI overlay on aerial farmland"
                 fill
                 className="object-cover rounded-[20px]"
               />

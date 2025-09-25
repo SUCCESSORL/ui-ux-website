@@ -4,18 +4,18 @@ import React from 'react';
 const features = [
   {
     Icon: Layers,
-    title: 'Custom-Trained Models',
-    description: "LLMs built for finance, using professionally labeled data tailored to the standards of your firm's best analysts.",
+    title: 'Custom Crop Models',
+    description: "AI models trained on your fields—sensor data, imagery, and records—to deliver practical, field-ready recommendations.",
   },
   {
     Icon: Box,
-    title: 'Single Tenant Deployments',
-    description: 'Flexible deployment options to meet the security & infrastructure needs for the most conscious firms.',
+    title: 'On‑Farm or Private Cloud Deployments',
+    description: 'Deploy on your terms—edge devices, co‑op servers, or private cloud—aligned with your data and compliance needs.',
   },
   {
     Icon: Lock,
-    title: 'Admin Governance & Permissions',
-    description: 'Granular permission controls, role-based access management, comprehensive audit trails, & customizable governance policies.',
+    title: 'Team Roles & Permissions',
+    description: 'Granular roles for growers, agronomists, and ops teams with audit trails and governance suited for large operations.',
   },
 ];
 
@@ -25,10 +25,10 @@ const EnterpriseFeatures = () => {
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-serif text-4xl font-bold tracking-tight text-[#1a1a1a]">
-            Built for Enterprise Deployment
+            Built for Farm Operations
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Rogo keeps your data safe with world-class security and data privacy measures.
+            FarmAI protects your data and scales from a single farm to multi‑region enterprises.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-none sm:mt-20 lg:mt-24">

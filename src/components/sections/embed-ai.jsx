@@ -8,7 +8,7 @@ const EmbedAiSection = () => {
           <div className="relative w-full max-w-[710px] shrink-0 overflow-hidden rounded-xl aspect-[710/482]">
             <Image
               src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/664c0369-6b1c-41e6-b482-de971c773c68-rogo-ai-clone-vercel-app/assets/images/next-911549-KmNjEBvnwNKdBuTbkE2ehpbUUxk-4.jpeg?"
-              alt="Dark nature background with a central graphic element"
+              alt="Dark landscape background with geometric overlay representing farm data orchestration"
               fill
               className="z-0 object-cover"
             />
@@ -26,12 +26,10 @@ const EmbedAiSection = () => {
           </div>
           <div className="flex max-w-md flex-col gap-6 text-center lg:max-w-[429px] lg:text-left">
             <h3 className="font-display text-[40px] leading-tight text-white">
-              Embed AI into Your Firm’s DNA
+              Embed AI into Your Farm Operations
             </h3>
             <p className="font-body text-lg leading-relaxed text-[#999999]">
-              Rather than provide off-the-shelf tools, we collaborate closely
-              with you to build custom models and give you a lasting competitive
-              advantage.
+              We partner with your agronomy team to build custom, field‑proven models—so you grow smarter each season and create durable advantage.
             </p>
           </div>
         </div>

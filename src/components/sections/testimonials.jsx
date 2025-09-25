@@ -18,30 +18,36 @@ const testimonialsData = [
       width: 140,
       height: 25,
     },
-    quote: "Our strategic integration of Rogo transforms how we deliver value to clients. Rogo enables our teams to analyze market data and identify opportunities with unprecedented speed and precision, while allowing our bankers to focus more deeply on client relationships and strategic advisory.",
-    author: "Patrice Maffre",
-    title: "International Head of Investment Banking, Nomura",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/664c0369-6b1c-41e6-b482-de971c773c68-rogo-ai-clone-vercel-app/assets/images/next-422378-uWpIUeiCXzNAcme71jTlsaj2kZw-6.jpg?",
+    quote:
+      "FarmAI helps our team act faster in the field. We combine weather, soil, and market signals to make planting and input decisions with confidence—freeing agronomists to focus on grower relationships and strategy.",
+    author: "Patrice M.",
+    title: "Operations Lead, Agrico Co‑op",
+    image:
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/664c0369-6b1c-41e6-b482-de971c773c68-rogo-ai-clone-vercel-app/assets/images/next-422378-uWpIUeiCXzNAcme71jTlsaj2kZw-6.jpg?",
   },
   {
     company: {
       type: "text",
-      name: "Lucerne Capital",
+      name: "Greenfields",
     },
-    quote: "The Rogo platform is by far the most advanced AI tool in this space. It is improving the way we do research and making our team far more productive.",
-    author: "Pieter Taselaar",
-    title: "Founding partner & Portfolio manager at Lucerne Capital",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/664c0369-6b1c-41e6-b482-de971c773c68-rogo-ai-clone-vercel-app/assets/images/next-028669-r8Xq3ZgsrIveP9RbDtOfIgjw-7.jpg?",
+    quote:
+      "The FarmAI platform is the most practical ag tool we've tried. It improves scouting, planning, and reporting—our team is noticeably more productive each week.",
+    author: "Pieter T.",
+    title: "Managing Grower, Greenfields",
+    image:
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/664c0369-6b1c-41e6-b482-de971c773c68-rogo-ai-clone-vercel-app/assets/images/next-028669-r8Xq3ZgsrIveP9RbDtOfIgjw-7.jpg?",
   },
   {
     company: {
       type: "text",
-      name: "Schonfeld",
+      name: "Harvest Union",
     },
-    quote: "Rogo helped me find relevant precedent data from a number of filings that I wouldn’t have found otherwise. It completely changed how I evaluated the opportunity.",
-    author: "Sean Warneke",
-    title: "Senior Analyst at Schonfeld",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/664c0369-6b1c-41e6-b482-de971c773c68-rogo-ai-clone-vercel-app/assets/images/next-475105-mYlRTlZaI2ByLhD2zi2MFCgDNFk-8.jpg?",
+    quote:
+      "FarmAI surfaced precedent field data I would've missed. It changed how I evaluated crop fit and timing for this season.",
+    author: "Sean W.",
+    title: "Senior Agronomist, Harvest Union",
+    image:
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/664c0369-6b1c-41e6-b482-de971c773c68-rogo-ai-clone-vercel-app/assets/images/next-475105-mYlRTlZaI2ByLhD2zi2MFCgDNFk-8.jpg?",
   },
 ];
 
@@ -73,9 +79,9 @@ export default function Testimonials() {
         <Carousel setApi={setApi} opts={{ loop: true }}>
           <div className="flex justify-between items-start md:items-center mb-16">
             <h2 className="h2">
-              What Customers Say
+              What Growers Say
               <br />
-              About Rogo
+              About FarmAI
             </h2>
             <div className="flex flex-col md:flex-row items-end md:items-center gap-4 sm:gap-6">
               <div className="flex items-center gap-3">
